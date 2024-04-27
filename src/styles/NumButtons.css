@@ -1,0 +1,29 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-auto-rows: minmax(70px, auto);
+    background-color: rgb(42, 40, 40);
+    border: 1px solid black;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.numButtons {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.numButtons:hover {
+    background-color: rgba(255, 255, 255, 0.308);
+    color: white;
+}

@@ -1,0 +1,17 @@
+.display {
+    background-color: rgb(42, 40, 40);
+    border: 1px solid black;
+    border-bottom: none;
+    text-align: right;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.display span {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
